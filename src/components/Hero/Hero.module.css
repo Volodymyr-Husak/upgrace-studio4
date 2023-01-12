@@ -1,0 +1,91 @@
+.hero {
+  max-width: 1600px;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* min-width: 1600px; */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: var(--bg-grey-cl); */
+  background-color: gray;
+  /* background-color: rgb(150, 105, 64); */
+  /* фонове зображення========================== */
+
+  /* mobile */
+  /* background-image: url(../../images/hero/hero-bg.png),
+    url(../../images/hero/hero-img_sm.jpg); */
+  background-image: url(../../images/hero/hero-bg.png),
+    url(../../images/hero/hero-manicure.jpg);
+}
+
+/* mobile */
+
+/* @media screen and(min-resolution:2dppx) {
+  .hero {
+    background-image: url(../../images/hero/hero-bg.png),
+      url(../../images/hero/hero-img_sm@2x.jpg);
+  }
+} */
+/* tablet */
+
+/* @media screen and(min-width: 768px) {
+  .hero {
+    background-image: url(../../images/hero/hero-bg.png),
+      url(../../images/hero/hero-img_md.jpg);
+  }
+
+  @media screen and(min-resolution:2dppx) {
+    .hero {
+      background-image: url(../../images/hero/hero-bg.png),
+        url(../../images/hero/hero-img_md@2x.jpg);
+    }
+  }
+} */
+
+.hero__container {
+  text-align: center;
+}
+.hero__title {
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+  } /* @include fonts(900, 26px, 1.62, 0.06em, uppercase); */
+}
+
+.hero__btn {
+  /* background-color: rgb(53, 28, 25); */
+  font-weight: 400;
+  color: #fff;
+}
+.hero__btn:hover {
+  scale: 1.1;
+  /* background-color: rgb(53, 28, 25); */
+  font-weight: 700;
+  color: #fff;
+}
+.hero__btn:focus {
+  scale: 1.1;
+  /* background-color: rgb(53, 28, 25); */
+  font-weight: 700;
+  color: #fff;
+}

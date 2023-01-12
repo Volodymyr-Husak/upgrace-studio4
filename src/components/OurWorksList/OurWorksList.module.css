@@ -1,0 +1,8 @@
+.our_works__header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.our_works__header_title {
+  margin-right: 15px;
+}

@@ -1,0 +1,29 @@
+.app_bar {
+  background-color: rgb(126, 93, 93);
+}
+
+.header__icon {
+  margin-right: 10px;
+}
+
+.logo:hover {
+  color: #000;
+}
+.logo:focus {
+  color: #000;
+}
+.link_menu {
+  color: #000;
+}
+
+.link_menu:hover {
+  font-weight: 700;
+  color: #000;
+}
+.link_menu:focus {
+  color: #000;
+}
+.link_menu.active {
+  font-weight: 700;
+  color: #000;
+}

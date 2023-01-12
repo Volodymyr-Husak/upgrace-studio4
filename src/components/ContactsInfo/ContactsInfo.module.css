@@ -1,0 +1,13 @@
+.text_container {
+  display: flex;
+}
+
+.info_container {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid; */
+  padding: 100px 0;
+  font-size: 15px;
+}
