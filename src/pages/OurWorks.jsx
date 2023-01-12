@@ -1,4 +1,3 @@
-// import OurWorksList from "./components/OurWorksList/OurWorksList";
 import OurWorksList from "../components/OurWorksList/OurWorksList";
 export default function OurWorks() {
   return (

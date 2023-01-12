@@ -8,18 +8,12 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 
 import { useState, useEffect } from "react";
-// import { useEffect } from 'react';
-// import { LinkEl } from './OurWorksList.styled';
 import OurWorksBtn from "../OurWorksBtn/OurWorksBtn";
-// import Loader from 'components/Loader/Loader';
-
-// import { cardsImages } from './dataImages';
 import { designCards } from "./dataImages";
 import { frenchCards } from "./dataImages";
 import { monotonousCards } from "./dataImages";
 import { winterCards } from "./dataImages";
 import css from "./OurWorksList.module.css";
-// import { blue } from '@mui/material/colors';
 
 export default function OurWorksList() {
   const [cards, setCards] = useState(designCards);
@@ -35,15 +29,12 @@ export default function OurWorksList() {
   };
 
   useEffect(() => {
-    // setLoading(true);
     if (selectedCards === 0) {
-      // setLoading(false);
       const number = numberCols(frenchCards);
       setCols(number);
       return setCards(frenchCards);
     }
     if (selectedCards === 1) {
-      // setLoading(false);
       const number = numberCols(designCards);
       setCols(number);
       return setCards(designCards);
@@ -60,12 +51,6 @@ export default function OurWorksList() {
     }
   }, [selectedCards]);
 
-  // setLoading(false);
-  // if (!cards) {
-  //   console.log(cards);
-  //   return <Loader />;
-  // }
-  // console.log(cards);
   return (
     <>
       <div className={css.our_works__header}>

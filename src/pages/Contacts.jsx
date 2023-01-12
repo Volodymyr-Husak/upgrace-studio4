@@ -1,5 +1,4 @@
-// import GoogleMap from 'components/GoogleMap/GoogleMap';
-import ContactsInfo from 'components/ContactsInfo/ContactsInfo';
+import ContactsInfo from "../components/ContactsInfo/ContactsInfo";
 
 export default function Contacts() {
   return (

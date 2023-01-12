@@ -9,9 +9,9 @@ import { Layout } from "./components/Layout";
 // import ContactsPage from 'pages/Contacts';
 const MainPage = lazy(() => import("./pages/Main"));
 const OurWorksPage = lazy(() => import("./pages/OurWorks"));
-// const PricePage = lazy(() => import("./pages/Price"));
-// const MastersPage = lazy(() => import("./pages/Masters"));
-// const ContactsPage = lazy(() => import("./pages/Contacts"));
+const PricePage = lazy(() => import("./pages/Price"));
+const MastersPage = lazy(() => import("./pages/Masters"));
+const ContactsPage = lazy(() => import("./pages/Contacts"));
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<MainPage />} />
         <Route path="/our-works" element={<OurWorksPage />} />
-        {/* <Route path="/price" element={<PricePage />} /> */}
-        {/* <Route path="/masters" element={<MastersPage />} /> */}
-        {/* <Route path="/contacts" element={<ContactsPage />} /> */}
+        <Route path="/price" element={<PricePage />} />
+        <Route path="/masters" element={<MastersPage />} />
+        <Route path="/contacts" element={<ContactsPage />} />
         {/* <Route
           path="/login"
           element={
