@@ -1,4 +1,4 @@
-import css from './ContactsInfo.module.css';
+import css from "./ContactsInfo.module.css";
 
 export default function ContactsInfo() {
   return (
@@ -14,7 +14,7 @@ export default function ContactsInfo() {
           <b>Години роботи:</b>
         </p>
         <p>Пн - Сб: 10:00 - 20:00</p>
-        <p>Неділя: 10:00 - 15:00</p>
+        {/* <p>Неділя: 10:00 - 15:00</p> */}
       </div>
     </div>
   );
