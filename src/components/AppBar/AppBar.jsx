@@ -34,7 +34,7 @@ const pages2 = [
   { name: "Головна", path: "/" },
   { name: "Наші роботи", path: "/our-works" },
   { name: "Прайс", path: "/price" },
-  { name: "Майстри", path: "/masters" },
+  // { name: "Майстри", path: "/masters" },
   { name: "Контакти", path: "/contacts" },
 ];
 
@@ -67,7 +67,7 @@ function ResponsiveAppBar() {
               // variant="body1"
               noWrap
               component="a"
-              href="/upgrace-studio/"
+              href="/"
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -137,7 +137,7 @@ function ResponsiveAppBar() {
               variant="h5"
               noWrap
               component="a"
-              href="/upgrace-studio/"
+              href="/"
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },
